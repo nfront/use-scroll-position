@@ -1,0 +1,66 @@
+{
+  "name": "use-scroll-position",
+  "version": "0.0.0-development",
+  "description": "React hook that returns the browser window's X and Y scroll position. Uses a modern and stable Observable implementation.",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --watch --testPathPattern=test\\.[jt]sx?$",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "unit": "jest --testPathPattern=test\\.[jt]sx?$",
+    "integration": "jest --testPathPattern=ispec\\.[jt]sx?$",
+    "dev": "microbundle watch",
+    "build": "microbundle",
+    "watch": "babel -w src --out-dir dist --ignore **/__tests__",
+    "travis": "git push origin master",
+    "publishManually": "npm publish",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfront/use-scroll-position.git"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "scroll-position",
+    "use-scroll-position",
+    "useScrollPosition"
+  ],
+  "author": "Magnus Rinnan Gaarder (magnus.rinnan@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfront/use-scroll-position/issues"
+  },
+  "homepage": "https://github.com/nfront/use-scroll-position#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "microbundle": "^0.11.0",
+    "prettier": "^1.17.1",
+    "semantic-release": "^15.13.12"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
