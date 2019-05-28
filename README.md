@@ -2,7 +2,7 @@
 
 ![Twitter URL](https://img.shields.io/twitter/url/https/github.com/nfront/global-styles.svg?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/magnusriga.svg?label=Follow&style=social)
 
-# @nfront/global-styles
+# @nfront/use-scroll-position
 
 A React hook that returns the browser window's X and Y scroll position. Uses a modern and stable Observable implementation.
 
