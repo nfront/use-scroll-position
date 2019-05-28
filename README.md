@@ -36,7 +36,7 @@ Full example of using the hook in a React component:
 import useScrollPosition from 'use-scroll-position';
 const MyComponent = props => {
   const scrollPosition = useScrollPosition(100);
-  console.log()
+  console.log(scrollPosition);
 };
 ```
 
