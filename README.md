@@ -4,7 +4,9 @@
 
 # @nfront/use-scroll-position (useScrollPosition)
 
-useScrollPosition is a React hook that returns the browser window's X and Y scroll position. Uses a modern and stable Observable implementation.
+useScrollPosition is a React hook that returns the browser window's X and Y scroll position.
+
+This package uses a modern and stable Observable implementation.
 
 ## Install
 
