@@ -9,7 +9,7 @@
     "unit": "jest --testPathPattern=test\\.[jt]sx?$ --passWithNoTests",
     "integration": "jest --testPathPattern=ispec\\.[jt]sx?$ --passWithNoTests",
     "dev": "microbundle watch",
-    "build": "babel src --out-dir dist --ignore **/__tests__",
+    "build": "microbundle",
     "watch": "babel -w src --out-dir dist --ignore **/__tests__",
     "travis": "git push origin master",
     "publishManually": "npm publish",
