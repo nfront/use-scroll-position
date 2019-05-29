@@ -1,5 +1,5 @@
 {
-  "name": "use-scroll-position",
+  "name": "@nfront/use-scroll-position",
   "version": "0.0.0-development",
   "description": "React hook that returns the browser window's X and Y scroll position. Uses a modern and stable Observable implementation.",
   "source": "src/index.js",
@@ -19,9 +19,14 @@
     "type": "git",
     "url": "https://github.com/nfront/use-scroll-position.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "react",
+    "hooks",
     "react-hooks",
+    "scroll",
     "scroll-position",
     "use-scroll-position",
     "useScrollPosition"
