@@ -5,10 +5,9 @@
   "source": "src/index.js",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest --watch --testPathPattern=test\\.[jt]sx?$",
-    "prepare": "cross-env NODE_ENV=production npm run build",
-    "unit": "jest --testPathPattern=test\\.[jt]sx?$",
-    "integration": "jest --testPathPattern=ispec\\.[jt]sx?$",
+    "test": "jest --watch --testPathPattern=test\\.[jt]sx?$ --passWithNoTests",
+    "unit": "jest --testPathPattern=test\\.[jt]sx?$ --passWithNoTests",
+    "integration": "jest --testPathPattern=ispec\\.[jt]sx?$ --passWithNoTests",
     "dev": "microbundle watch",
     "build": "microbundle",
     "watch": "babel -w src --out-dir dist --ignore **/__tests__",
