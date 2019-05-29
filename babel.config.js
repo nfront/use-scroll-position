@@ -10,12 +10,10 @@ module.exports = function babelConfig(api) {
         },
       },
     ],
+    '@babel/preset-react',
   ];
-
-  const plugins = ['@babel/plugin-proposal-class-properties'];
 
   return {
     presets,
-    plugins,
   };
 };
