@@ -8,11 +8,11 @@ A React hook that returns the browser window's X and Y scroll position. Uses a m
 
 ## Install
 
-\`npm install --save @nfront/use-scroll-position\`
+`npm install --save @nfront/use-scroll-position`
 
 or:
 
-\`yarn add @nfront/use-scroll-position\`
+`yarn add @nfront/use-scroll-position`
 
 ## Why to use
 
