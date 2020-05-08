@@ -60,7 +60,7 @@
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
     "jest": "^24.8.0",
-    "microbundle": "^0.11.0",
+    "microbundle": "^0.12.0",
     "prettier": "^1.17.1",
     "react-test-renderer": "^16.8.6",
     "semantic-release": "^15.13.12"
